@@ -1,0 +1,22 @@
+.main-form{
+    margin-top: 50px;
+}
+
+body{
+    background-color: black;
+}
+.form-part-2{
+    display: none;
+}
+
+.loader{
+    display: none;
+}
+
+.results{
+    display: none;
+}
+
+.error{
+    display: none;
+}
