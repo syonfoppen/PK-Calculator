@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body .main-container {
+  width: 90%;
+  min-height: 90vh;
+  margin: auto;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.288);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.288);
+  margin-top: 5vh;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+body .main-container * {
+  margin: auto;
+}
+
+body .main-container input:nth-child(1) {
+  display: block;
+  margin: 50px auto;
+  max-width: 260px;
+  height: 80px;
+  font-size: 2.5em;
+  border-radius: 8px;
+}
+
+body .main-container .btn {
+  display: block;
+  max-width: 200px;
+}
+
+body .main-container h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  margin: auto;
+}
+
+body .main-container .center-container {
+  margin: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body .main-container h1 {
+    font-size: 2em;
+  }
+  body .main-container * {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body .main-container h1 {
+    font-size: 1.7em;
+  }
+  body .main-container input:nth-child(1) {
+    max-width: 200px;
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=style-erel.css.map */

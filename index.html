@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,49 +12,48 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="style/style-erel.css">
 
 </head>
+
 <body>
-    <div class="container">
-        <div class="card main-form">
-            <div class="card-body">
 
-                <h1>CALCULATOR</h1>
-                <div class="form-part-1">
-                    <input type="text" class="kentekenplaat">
-                    <a href="javascript:GetData()" class="btn btn-primary green">Calculate</a>
-                </div>
-                <div class="form-part-2">
-                    Helaas hebben we het vermogen van deze auto niet kunnen vinden. Vul aub zelf het vermogen in.
-                    <br>
-                    <input type="number" class="vermogen">
-                    <a href="javascript:SetVermogen()" class="btn btn-primary green">Calculate</a>
-                </div>
-                
-                <div class="loader">
-                    <div class=" spinner-border" role="status">
-                        <span class="sr-only">Loading...</span>
-                        
-                      </div>
-                </div>
+    <div class="main-container">
 
-                <div class="results">
-                    Kanetken: <span class="kenteken"></span>
-                    Merk: <span class="merk"></span>
-                    Model: <span class="model"></span>
-                    Bouwjaar: <span class="bouwjaar"></span>
-                    PK/KG: <span class="result"></span>
-                </div>
-                <div class="error">
-                        
-                </div>
+        <h1>CALCULATOR</h1>
+        <div class="center-container">
+            <input type="text" class="kentekenplaat">
+            <a href="javascript:GetData()" class="btn btn-primary green">Calculate</a>
+        </div>
+        <div class="form-part-2">
+            Helaas hebben we het vermogen van deze auto niet kunnen vinden. Vul aub zelf het vermogen in.
+            <br>
+            <input type="number" class="vermogen">
+            <a href="javascript:SetVermogen()" class="btn btn-primary green">Calculate</a>
+        </div>
+
+        <div class="loader">
+            <div class=" spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+
             </div>
         </div>
 
+        <div class="results">
+            Kanetken: <span class="kenteken"></span>
+            Merk: <span class="merk"></span>
+            Model: <span class="model"></span>
+            Bouwjaar: <span class="bouwjaar"></span>
+            PK/KG: <span class="result"></span>
+        </div>
+        <div class="error">
+
+        </div>
     </div>
 
 
 
+
 </body>
+
 </html>
